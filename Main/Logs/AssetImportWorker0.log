@@ -1,0 +1,315 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16257 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+F:\UnityHub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/unity/CarrotFantasy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62527
+Successfully changed project path to: G:/unity/CarrotFantasy
+G:/unity/CarrotFantasy
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path F:/UnityHub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/unity/CarrotFantasy/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   30.0.15.1272
+Initialize mono
+Mono path[0] = 'F:/UnityHub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'F:/UnityHub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/UnityHub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/UnityHub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001089 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (687ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1095ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.2 MB.
+System memory in use after: 107.3 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2861.
+Total: 3.778700 ms (FindLiveObjects: 0.219200 ms CreateObjectMapping: 0.109900 ms MarkObjects: 3.366300 ms  DeleteObjects: 0.082300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/EGFrameWork/ResourceFrameWork/FrameWork/ObjectPoolManager/Unload.cs
+  artifactKey: Guid(3e237e057fd3e20428baf7d29d6aeded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/ResourceFrameWork/FrameWork/ObjectPoolManager/Unload.cs using Guid(3e237e057fd3e20428baf7d29d6aeded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3cfbad5984ce1cc6deed1801f7eeac') in 0.024026 seconds 
+  Import took 0.027862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009778 seconds.
+  path: Assets/EGFrameWork/ResourceFrameWork/FrameWork/ObjectPoolManager/Synchronous.cs
+  artifactKey: Guid(78a478afb52007242ba330ae7260e205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/ResourceFrameWork/FrameWork/ObjectPoolManager/Synchronous.cs using Guid(78a478afb52007242ba330ae7260e205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2709f40e01881812d132a97082be08e') in 0.004814 seconds 
+  Import took 0.008283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020876 seconds.
+  path: Assets/EGFrameWork/Core/Container.cs
+  artifactKey: Guid(c09e852fc299a6444a954ff60c256a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Core/Container.cs using Guid(c09e852fc299a6444a954ff60c256a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618721ce15f0a58ec9ac46e20af08613') in 0.004772 seconds 
+  Import took 0.008267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024326 seconds.
+  path: Assets/EGFrameWork/Abstract/AbstractModel.cs
+  artifactKey: Guid(b961ffc9e5a26634b94214be724bb1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Abstract/AbstractModel.cs using Guid(b961ffc9e5a26634b94214be724bb1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6342e161ac5beeb94aea1bf6c95b0208') in 0.005022 seconds 
+  Import took 0.008600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020292 seconds.
+  path: Assets/EGFrameWork/ResourceFrameWork/FrameWork/ResourcesManager/Synchronous.cs
+  artifactKey: Guid(315594f20324c8b4b807473b06dd0cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/ResourceFrameWork/FrameWork/ResourcesManager/Synchronous.cs using Guid(315594f20324c8b4b807473b06dd0cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ab16fe372762c54302e37fe13c9584') in 0.001770 seconds 
+  Import took 0.005371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025063 seconds.
+  path: Assets/EGFrameWork/Abstract/AbstractCommand.cs
+  artifactKey: Guid(fd77977860d676a4493315dc8161f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Abstract/AbstractCommand.cs using Guid(fd77977860d676a4493315dc8161f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a942ac9ab2d31c9585e1150728bd3628') in 0.004763 seconds 
+  Import took 0.008447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048131 seconds.
+  path: Assets/EGFrameWork/Core/Interface/ICommand.cs
+  artifactKey: Guid(9935999889181e34797547e0d83192c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Core/Interface/ICommand.cs using Guid(9935999889181e34797547e0d83192c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7566f4e5176143f1485f7bda62d472') in 0.005619 seconds 
+  Import took 0.009377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.187645 seconds.
+  path: Assets/EGFrameWork/SceneFrameWork/Base/BaseSceneState.cs
+  artifactKey: Guid(93084bff79d51f747ac1e648cde9897c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/SceneFrameWork/Base/BaseSceneState.cs using Guid(93084bff79d51f747ac1e648cde9897c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd73e6d0e2b63eea61065b2253eb8bd') in 0.005105 seconds 
+  Import took 0.008802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029213 seconds.
+  path: Assets/EGFrameWork/Core/ContainableScanner.cs
+  artifactKey: Guid(5d53a97f71293874c82ad1b311bab499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Core/ContainableScanner.cs using Guid(5d53a97f71293874c82ad1b311bab499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51f8a3aa3a6144e1572fe9f6eef247b') in 0.004953 seconds 
+  Import took 0.008510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068069 seconds.
+  path: Assets/EGFrameWork/Core/Interface/IUtility.cs
+  artifactKey: Guid(46ccbae8dba47d647a91a1d33fb540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Core/Interface/IUtility.cs using Guid(46ccbae8dba47d647a91a1d33fb540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbbcea04965c48b4bb495cb31508447') in 0.004941 seconds 
+  Import took 0.008343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019782 seconds.
+  path: Assets/EGFrameWork/ViewController.cs
+  artifactKey: Guid(9dfdc05d6ca15594391a64d0557faeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/ViewController.cs using Guid(9dfdc05d6ca15594391a64d0557faeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4be189537ec6533d75b971cfd3202a') in 0.005092 seconds 
+  Import took 0.008595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030558 seconds.
+  path: Assets/EGFrameWork/Core/Interface/ISystem.cs
+  artifactKey: Guid(3d980c675b8e50d46ab887736439daee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Core/Interface/ISystem.cs using Guid(3d980c675b8e50d46ab887736439daee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6782e5173dc9ef6aee91c616146f1b') in 0.005185 seconds 
+  Import took 0.008718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073661 seconds.
+  path: Assets/EGFrameWork/SceneFrameWork/Base/IBaseSceneState.cs
+  artifactKey: Guid(1fa7eea1202a75b47884f8f82dd6496b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/SceneFrameWork/Base/IBaseSceneState.cs using Guid(1fa7eea1202a75b47884f8f82dd6496b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85efa1fd07eec0380f412232de360935') in 0.005135 seconds 
+  Import took 0.008676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025191 seconds.
+  path: Assets/EGFrameWork/Abstract/AbstractSystem.cs
+  artifactKey: Guid(0d3dce28071c44948818a131de1b7702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Abstract/AbstractSystem.cs using Guid(0d3dce28071c44948818a131de1b7702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759fb8e46b8c66577142b2eb1e274345') in 0.004745 seconds 
+  Import took 0.008201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053158 seconds.
+  path: Assets/EGFrameWork/Core/Interface/IView.cs
+  artifactKey: Guid(94bec173cab92c346ae76b3c08596edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Core/Interface/IView.cs using Guid(94bec173cab92c346ae76b3c08596edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf7a0c7ded2cbc00feda1cf214a05f2') in 0.005061 seconds 
+  Import took 0.008565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028691 seconds.
+  path: Assets/EGFrameWork/ResourceFrameWork/FrameWork/ObjectPoolManager/Asynchronous.cs
+  artifactKey: Guid(104bb772e949edd48a8e2cc7c737a113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/ResourceFrameWork/FrameWork/ObjectPoolManager/Asynchronous.cs using Guid(104bb772e949edd48a8e2cc7c737a113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494c3a4025eb560d3080ffd1b66e8c60') in 0.021628 seconds 
+  Import took 0.025065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027072 seconds.
+  path: Assets/EGFrameWork/ResourceFrameWork/FrameWork/ObjectPoolManager/Preloading.cs
+  artifactKey: Guid(048a9b5cab9687447a28df202bd502ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/ResourceFrameWork/FrameWork/ObjectPoolManager/Preloading.cs using Guid(048a9b5cab9687447a28df202bd502ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d1d0d5b51cbf94bbed81b9101630f0') in 0.004986 seconds 
+  Import took 0.008624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034315 seconds.
+  path: Assets/EGFrameWork/UIFrameWork/UIManager.cs
+  artifactKey: Guid(798e4ab47a7b616488f1010ecbc19b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/UIFrameWork/UIManager.cs using Guid(798e4ab47a7b616488f1010ecbc19b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba2d4fe7454e6df19fcdb90b682dee7') in 0.005402 seconds 
+  Import took 0.009171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103734 seconds.
+  path: Assets/EGFrameWork/Abstract/AbstractUtility.cs
+  artifactKey: Guid(bc14227c00f535a42bd9b6c18518d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Abstract/AbstractUtility.cs using Guid(bc14227c00f535a42bd9b6c18518d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d443c25c6e5b1f0d2efbc99118d9934') in 0.004949 seconds 
+  Import took 0.008451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029667 seconds.
+  path: Assets/EGFrameWork/Core/Interface/IModel.cs
+  artifactKey: Guid(2cedd470c08deee48bdbe33b745eaade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Core/Interface/IModel.cs using Guid(2cedd470c08deee48bdbe33b745eaade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b06ee8d807001c380cf0b3d7edf0fd') in 0.004874 seconds 
+  Import took 0.008292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019122 seconds.
+  path: Assets/EGFrameWork/Core/Attribute/SystemAttribute.cs
+  artifactKey: Guid(4876c1d156679bd4f990c199f25f7fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Core/Attribute/SystemAttribute.cs using Guid(4876c1d156679bd4f990c199f25f7fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fd25990288a739a2dd6ded3ee7b69a') in 0.005038 seconds 
+  Import took 0.008614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089659 seconds.
+  path: Assets/EGFrameWork/ResourceFrameWork/FrameWork/ResourcesManager/Preloading.cs
+  artifactKey: Guid(934779457ed18224b980fb853861a553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/ResourceFrameWork/FrameWork/ResourcesManager/Preloading.cs using Guid(934779457ed18224b980fb853861a553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc134cd23c934ae24b98d6992e3f950') in 0.001475 seconds 
+  Import took 0.004850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064392 seconds.
+  path: Assets/EGFrameWork/Core/ContainerManager.cs
+  artifactKey: Guid(56e1a37b8503e8146b5efa0cf90d85de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EGFrameWork/Core/ContainerManager.cs using Guid(56e1a37b8503e8146b5efa0cf90d85de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aed96e5268f8742b85da10b7cafcc2') in 0.005250 seconds 
+  Import took 0.008874 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
